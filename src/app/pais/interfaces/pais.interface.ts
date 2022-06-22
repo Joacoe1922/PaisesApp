@@ -1,6 +1,7 @@
 export interface Country {
     name:         Name;
     tld:          string[];
+    alpha3Code:   string;
     cca2:         string;
     ccn3:         string;
     cca3:         string;

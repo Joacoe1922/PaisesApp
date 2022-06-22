@@ -25,6 +25,7 @@ export class PorCapitalComponent {
     .subscribe({
       next: ( paises ) => {
         this.paises = paises;
+        console.log(paises);
       },
       error: ( err ) => {
         this.hayError = true;
